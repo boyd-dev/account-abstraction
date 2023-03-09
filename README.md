@@ -24,6 +24,6 @@
      - [`IAccount`](./contracts/interfaces/IAccount.sol)
      - `IAggregator`
      - [`IEntryPoint`](./contracts/interfaces/IEntryPoint.sol)
-     - `IPaymaster`
+     - [`IPaymaster`](./contracts/interfaces/IPaymaster.sol)
      - [`IStakeManager`](./contracts/interfaces/IStakeManager.sol)
      - [`UserOperation`](./contracts/interfaces/UserOperation.sol)
