@@ -22,7 +22,7 @@
   1. [표준(요약)](./docs/eip-4337.md)
   2. 인터페이스  
      - [`IAccount`](./contracts/interfaces/IAccount.sol)
-     - `IAggregator`
+     - [`IAggregator`](./contracts/interfaces/IAggregator.sol)
      - [`IEntryPoint`](./contracts/interfaces/IEntryPoint.sol)
      - [`IPaymaster`](./contracts/interfaces/IPaymaster.sol)
      - [`IStakeManager`](./contracts/interfaces/IStakeManager.sol)
