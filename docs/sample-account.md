@@ -170,6 +170,3 @@ upgrades.deployProxy(simpleAccount, [owner], {kind: "uups", unsafeAllow: ["const
 배포 후에 출력되는 컨트랙트 주소는 프록시 컨트랙트 주소이고 이더스캔에서 조회해보면 로직 컨트랙트의 주소를 알 수 있습니다.
 또는 `@openzeppelin/upgrades-core` 패키지에 있는 `getImplementationAddress`을 사용하여 알 수도 있습니다.
 
-하드햇 플러그인 hardhat-etherscan으로 로직 컨트랙트를 포함한 모든 컨트랙트를 이더스캔에서 확인받을 수 있습니다.  
-[SimpleAccount(Sepolia)](https://sepolia.etherscan.io/address/0xf05A1f128412D78e13e037ED04A53d4670b044D7)
-
