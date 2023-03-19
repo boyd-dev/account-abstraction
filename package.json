@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "clean": "powershell Remove-Item .\\artifacts, .\\cache -recurse",
+    "deploy": "npx hardhat run .\\scripts\\deploySimpleAccount.js --network sepolia",
+    "upgrade": "npx hardhat run .\\scripts\\deploySimpleAccountV2.js --network sepolia"    
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
