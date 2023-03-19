@@ -172,8 +172,8 @@ upgrades.deployProxy(simpleAccount, [owner], {kind: "uups", unsafeAllow: ["const
 
 * 컨트랙트
   [SimpleAccount](https://github.com/boyd-dev/account-abstraction/blob/main/contracts/SimpleAccount.sol)
-* 배포 스크립트
-  [depolySimpleAccount](https://github.com/boyd-dev/account-abstraction/tree/main/scripts)
+* 배포 스크립트  
+  [depolySimpleAccount](https://github.com/boyd-dev/account-abstraction/tree/main/scripts)  
   [depolySimpleAccountV2](https://github.com/boyd-dev/account-abstraction/tree/main/scripts)
 * 테스트 케이스  
   [SimpleAccount-test](https://github.com/boyd-dev/account-abstraction/blob/main/test/SimpleAccount-test.js)
