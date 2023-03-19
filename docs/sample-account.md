@@ -170,7 +170,7 @@ upgrades.deployProxy(simpleAccount, [owner], {kind: "uups", unsafeAllow: ["const
 배포 후에 출력되는 컨트랙트 주소는 프록시 컨트랙트 주소이고 이더스캔에서 조회해보면 로직 컨트랙트의 주소를 알 수 있습니다.
 또는 `@openzeppelin/upgrades-core` 패키지에 있는 `getImplementationAddress`을 사용하여 알 수도 있습니다.
 
-* 컨트랙트
+* 컨트랙트  
   [SimpleAccount](https://github.com/boyd-dev/account-abstraction/blob/main/contracts/SimpleAccount.sol)
 * 배포 스크립트  
   [depolySimpleAccount](https://github.com/boyd-dev/account-abstraction/tree/main/scripts)  
